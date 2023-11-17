@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Moul&display=swap');
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: linear-gradient(143.74deg, #3051A0 -3.36%, #00AFF0 96.58%);
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-left-radius: 0.3rem;
+        border-bottom-left-radius: 0.3rem;
+    }
+}
+@media (max-width:769px){
+    .gradient-custom-2{
+        display: none;
+        }
+}
+.title_login {
+    font-family: 'Moul', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #3051a0;
+}
+.title_login_eng{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+text-transform: uppercase;
+
+color: #3051A0;
+}

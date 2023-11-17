@@ -1,0 +1,11 @@
+.imageshow{
+    overflow: hidden !important;
+    /* max-height: 300px; */
+    /* border: solid 1px black !important; */
+}
+.imageshow img{
+    width: 100%;
+    object-fit: contain;
+    aspect-ratio: 3/1;
+    height: 100%;
+}
